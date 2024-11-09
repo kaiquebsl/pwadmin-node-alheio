@@ -1,0 +1,26 @@
+{
+  "name": "signal-pw",
+  "version": "1.0.0",
+  "description": "Perfect World Servers Administration Tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kewlz",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "iconv-lite": "^0.6.3",
+    "md5": "^2.3.0",
+    "mysql2": "^3.6.5",
+    "net": "^1.0.2",
+    "nodemon": "^3.0.2",
+    "ps-list": "^8.1.1",
+    "uuid": "^9.0.1"
+  }
+}
